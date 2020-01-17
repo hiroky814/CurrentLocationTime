@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "CurrentLocationTime"
-    s.version      = "1.0"
+    s.version      = "1.1"
     s.summary      = "Get the time corresponding to the locale"
     s.license      = { :type => 'MIT', :file => 'LICENSE' }
     s.homepage     = "https://github.com/hiroky814/CurrentLocationTime"

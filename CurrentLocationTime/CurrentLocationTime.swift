@@ -7,12 +7,10 @@
 //
 import Foundation
 
-public class CurrentLocationTime {
-    public func getTime(formatStr : String) -> String {
-        let date = Date()
-        let format = DateFormatter()
-        format.locale = Locale(identifier: TimeZone.current.identifier)
-        format.dateFormat = formatStr
-        return format.string(from: date)
-    }
+public func getTime(formatStr : String) -> String {
+    let date = Date()
+    let format = DateFormatter()
+    format.locale = Locale(identifier: TimeZone.current.identifier)
+    format.dateFormat = formatStr
+    return format.string(from: date)
 }
